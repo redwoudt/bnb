@@ -19,6 +19,8 @@
                 font-family: 'Nunito', sans-serif;
             }
         </style>
+
+        <script src="{{ asset('js/app.js') }}" defer> </script>
     </head>
     <body class="antialiased">
         <div id="app"> Ferdi is here </div>

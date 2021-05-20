@@ -32,3 +32,10 @@ RUN mkdir -p /home/$user/.composer && \
 WORKDIR /var/www
 
 USER $user
+
+# install artisan ui vue
+php artisan ui vue
+
+# Setup NPM
+RUN npm install
+RUN npm run dev
